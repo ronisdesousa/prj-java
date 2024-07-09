@@ -2,33 +2,5 @@
 
 Modelagem e Diagramação de um Componente iPhone.
 
-classDiagram
-    TocadorMusicas <|-- Iphone
-    Telefone <|-- Iphone
-    Navegador <|-- Iphone
-    TocadorMusicas <|-- Ipod
-    Navegador <|-- Chrome
-    Navegador <|-- Internet Explorer
-    TocadorMusicas <|-- Walkman
-    Telefone <|-- Nokia5125
-    Iphone: +bloquearTela()
-    Iphone: +desbloquearTela()
-    class TocadorMusicas {
-      <<interface>>  
-      +tocar()
-      +pausar()
-      +avancar()
-      +retornar()
-    }
-    class Telefone {
-      <<interface>>
-      +chamar()
-      +desligar()
-      +atender()
-    }
-    class Navegador {
-      <<interface>>  
-      +acessarPagina()
-      +abrirNovaAba()
-      +atualizar()
-    }
+
+![Untitled diagram-2024-07-09-210551](https://github.com/ronisdesousa/prj-java/assets/9999014/48e3335d-2129-4988-a000-e2728fe5dfcf)
