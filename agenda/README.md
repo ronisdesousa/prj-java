@@ -22,8 +22,8 @@ classDiagram
         +int id
         +int clienteId
         +int procedimentoId
-        +string data
-        +string horario
+        +datetime data
+        +datetime horario
     }
 
     Agenda --> Cliente : referencia
